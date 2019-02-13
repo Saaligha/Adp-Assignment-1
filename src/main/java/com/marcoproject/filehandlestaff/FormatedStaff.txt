@@ -1,0 +1,8 @@
+StaffNum            First Name          Last Name           Salary              
+1111                Jon                 Jones               55895.250000        
+1234                Mary                Smith               95875.500000        
+2222                Andile              Makanda             67892.000000        
+3345                Lihle               Tshabalala          88795.750000        
+2323                Steve               Adams               55890.800000        
+4333                Siya                Mlenga              64290.500000        
+5677                Jimmy               Davis               57860.950000        
