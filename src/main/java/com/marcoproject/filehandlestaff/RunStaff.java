@@ -131,9 +131,10 @@ public class RunStaff {
 		  	    	Staff staff = new Staff(staffN, name, lname, sal);
 
 		  	    	list.add(staff);
+		  	    	System.out.println("Your file is being processed...");
 		  	    }
 				String out = String.format("%-20s%-20s%-20s%-20s", "StaffNum", "First Name", "Last Name", "Salary");
-
+					bw1.write("-------------------------------------------------------------------------------");
 					bw1.write(out);
 					bw1.newLine();
 		  	    	for(int i = 0; i<list.size();i++){
@@ -168,9 +169,9 @@ public class RunStaff {
 
     public static void main(String[] args){
     	RunStaff run = new RunStaff();
-    	//run.RunStaff();
-    	//run.RunStaffV2();
-    	//run.RunStaffV3();
+    	run.RunStaff();
+    	run.RunStaffV2();
+    	run.RunStaffV3();
     	run.RunStaffV4();
     }
 
